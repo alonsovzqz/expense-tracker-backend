@@ -1,0 +1,22 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Expense tracker project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Alonso Vazquez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.1"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
